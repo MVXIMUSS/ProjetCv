@@ -1,0 +1,283 @@
+body,
+html {
+	margin: 0;
+	height: 100%;
+}
+
+.outer {
+	display: flex;
+	margin: 0%;
+}
+
+.navbar {
+	display: flex;
+}
+
+.propos,
+.cv,
+.folio,
+.contact {
+	height: 100vh;
+	display: flex;
+}
+
+.folio {
+	width: 100%;
+	height: 860px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	background-image: url("./image/banner.png");
+	height: 100vh;
+	width: 90px;
+	position: fixed;
+}
+
+.content-group {
+	margin-left: 90px;
+}
+
+.navbar-links {
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	font-size: 55px;
+	color: rgb(255, 72, 0);
+	font-family: 'black ravens';
+	font-weight: lighter;
+	margin: 10px;
+	padding: 0;
+
+}
+
+.navbar-links-container {
+	display: flex;
+	flex-direction: column-reverse;
+	list-style: none;
+	justify-content: flex-start;
+	margin: auto 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Louis george cafe';
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.experiences {
+	padding-top: 50px;
+}
+
+li {
+	height: 50px;
+}
+
+.job {
+	padding: 20px 100px;
+	font-size: 25px;
+	font-family: 'Louis george cafe';
+	text-align: center;
+	margin: 0px;
+}
+
+.para1 {
+	padding: 20px 80px;
+	font-size: 20px;
+	font-family: 'Louis george cafe';
+	text-align: center;
+}
+
+.anchor {
+	display: inline-block;
+	width: 90px;
+	height: 70px;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 220, 220, 0, 4);
+}
+
+.navbar-content li {
+	width: 90px;
+	height: 25px;
+	background-color: rgb(0, 220, 220);
+	text-align: center;
+}
+
+a:hover {
+	cursor: pointer;
+	border: 1px solid white;
+	height: 30px;
+	width: 100%;
+	background-color: rgb(255, 255, 255, 0.7);
+	color: rgb(255, 72, 0);
+}
+
+.about {
+	flex-basis: 50%;
+	padding: 2px;
+}
+
+.name {
+	text-align: center;
+	font-size: 120px;
+	color: rgb(255, 72, 0);
+	font-family: 'downstairs';
+	font-weight: lighter;
+	margin: 5px;
+}
+
+.name-cita {
+	text-align: center;
+	font-size: 28px;
+	color: rgb(0, 0, 0);
+	font-family: 'black ravens';
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+
+.citation {
+	text-align: center;
+	font-size: 34px;
+	color: rgb(255, 72, 0);
+	font-family: 'black ravens';
+	font-weight: lighter;
+	margin: 10px;
+	padding: 0;
+}
+
+.cv-left {
+	background: url("./image/Graph-cv-left.png");
+}
+
+.me,
+.cv-content-right,
+.cv-content-left {
+	padding: 10px 100px;
+	font-family: 'Louis george cafe';
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.about-me {
+	text-align: center;
+	font-size: 55px;
+	color: rgb(255, 72, 0);
+	font-family: 'black ravens';
+	font-weight: lighter;
+	margin: 10px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.contact-title {
+	text-align: center;
+	font-size: 55px;
+	color: rgb(255, 72, 0);
+	font-family: 'black ravens';
+	font-weight: lighter;
+	margin: 10px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.content-contact {
+	padding: 30px 100px;
+	font-size: 24px;
+	font-family: 'Louis george cafe';
+	text-align: center;
+}
+
+.hards {
+	margin-top: 0px;
+}
+
+.content-skill {
+	columns: 2 auto;
+	padding: 60px 40px;
+}
+
+.right {
+	background-image: url("./image/Graph2.png");
+}
+
+.focus1 {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 494px;
+	height: 250px;
+}
+
+.graph4 {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 418px;
+	height: 220px;
+}
+
+.focus2 {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 358px;
+	height: 220px;
+}
+
+.graph1 {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 263px;
+	height: 250px;
+}
+
+.day,
+.sunset {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 379px;
+	height: 480px;
+}
+
+.sea,
+.graph3 {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 388px;
+	height: 510px;
+}
+
+.tatoo {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 784px;
+	height: 450px;
+
+
+}
+
+.graph5 {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 766px;
+	height: 450px;
+}
+
+.profil {
+	width: 350px;
+}
+
+#profil {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.graphlst {
+	padding: 5px;
+	width: 787, 5px;
+	height: 856px;
+}
